@@ -40,7 +40,7 @@
 000390     display space. 
            open i-o stock-file.
 000410     display screen-headings.
-
+           display space.
 000420 normal-input. 
 000430     move space to enter-it. 
 000440     display enter-it. 

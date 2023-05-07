@@ -111,6 +111,7 @@
          <file compile="true" path="ENEB007.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="ENEB009.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="COMP3.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="ENEB010.cbl" xsi:type="cobolFile"/>
       </filetype>
       <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
       <folders xsi:type="cobolFolderContainer">
