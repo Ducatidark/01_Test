@@ -94,6 +94,7 @@
 		<file name="ENEB007.cbl"/>
 		<file name="ENEB009.cbl"/>
 		<file name="COMP3.cbl"/>
+		<file name="ENEB010.cbl"/>
 	</mffilelist>
 	<!-- COBOL copybook locations -->
 	<mffilelist id="cobol.copybook.locations">
@@ -129,6 +130,7 @@
 		<file name="ENEB007${mf.objext}"/>
 		<file name="ENEB009${mf.objext}"/>
 		<file name="COMP3${mf.objext}"/>
+		<file name="ENEB010${mf.objext}"/>
 	</mffilelist>
 	<target name="cobol.createcar.cfg.New_Configuration.property">
 		<condition property="mf.createCar.isTrue">
@@ -179,6 +181,11 @@
 			<cobollink debug="true" destfile="COMP3" entrypoint="${mf.entryPoint.cfg.New_Configuration}" sharedRts="true" destdir="${mf.destDir.cfg.New_Configuration}" is64bit="false" objectdir="${basedir}/New_Configuration.bin" failonerror="${mf.cobollinkFailOnError}" desttype="exe" threadedRts="true">
 				<mffilelist srcdir="${basedir}/New_Configuration.bin">
 					<file name="COMP3${mf.objext}"/>
+				</mffilelist>
+			</cobollink>
+			<cobollink debug="true" destfile="ENEB010" entrypoint="${mf.entryPoint.cfg.New_Configuration}" sharedRts="true" destdir="${mf.destDir.cfg.New_Configuration}" is64bit="false" objectdir="${basedir}/New_Configuration.bin" failonerror="${mf.cobollinkFailOnError}" desttype="exe" threadedRts="true">
+				<mffilelist srcdir="${basedir}/New_Configuration.bin">
+					<file name="ENEB010${mf.objext}"/>
 				</mffilelist>
 			</cobollink>
 		</parallel>
