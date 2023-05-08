@@ -16,6 +16,10 @@
            call 'ENEB008' using by content myvar
            
            call 'ENEB008' using myvar
+       
+           display 'hbu modif 1'
            goback.
+       
+       
 
        end program ENEB006.
